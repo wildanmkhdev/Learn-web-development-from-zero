@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="latihan.css" />
+		<!-- cdn -->
+		<!-- content delivery nerwork -->
+	</head>
+	<body>
+		<nav id="navbar">
+			<div class="logo">
+				<h1>Logo</h1>
+			</div>
+
+			<ul>
+				<li><a href="">home</a></li>
+				<li><a href="">about</a></li>
+				<li><a href="">contact</a></li>
+				<li><a href="">galery</a></li>
+			</ul>
+		</nav>
+		<section>
+			<div class="container">
+				<div class="banner">
+					<video src="./video.mp4" autoplay muted loop playsinline></video>
+				</div>
+			</div>
+		</section>
+		<section>
+			<div class="container">
+				<div class="gambar">
+					<img
+						src="https://img.global.news.samsung.com/id/wp-content/uploads/2024/11/28115936/Tampilan-Galaxy-A16-Gray-1000x667.jpg"
+						alt="" />
+				</div>
+				<div class="teks">
+					<h1>dekripsi</h1>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum
+						perferendis veniam consequuntur ipsa eos consectetur dolor commodi
+						corrupti et dicta, beatae sed illum inventore omnis in quos
+						architecto officia itaque?
+					</p>
+					<p>
+						Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae
+						officia aliquam autem enim error debitis cumque sunt labore est,
+						repellendus eveniet culpa nesciunt, deserunt magni maiores optio
+						quod natus itaque?
+					</p>
+				</div>
+			</div>
+		</section>
+		<section>
+			<h1>about</h1>
+		</section>
+		<section>
+			<h1>galery</h1>
+		</section>
+		<section>
+			<h1>contact</h1>
+		</section>
+		<footer>
+			<h1>footer</h1>
+		</footer>
+
+		<script>
+			window.addEventListener("scroll", function () {
+				const navbar = document.getElementById("navbar");
+				if (window.scrollY >= 500) {
+					navbar.classList.add("scrolled");
+				} else {
+					navbar.classList.remove("scrolled");
+				}
+			});
+
+			window.add("scroll", function () {
+				const navbar = document.getElementById("navbar");
+				if (window.screenY >= 500) {
+					navbar.classList.add("scrolled");
+				} else {
+					navbar.classList.remove("scrolled");
+				}
+			});
+		</script>
+	</body>
+</html>

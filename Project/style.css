@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+  color: black;
+  text-transform: capitalize;
+}
+
+nav {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 35px;
+  box-shadow: 0px -2px 5px 1px black;
+  position: fixed;
+  z-index: 999;
+
+  /* opx atas bawah 20px kiri kanan */
+  /* ini untuk itu itu untuk ini */
+}
+
+.left-menu ul {
+  display: flex;
+  gap: 10px;
+}
+
+.left-menu ul li {
+  list-style: none;
+  /* liststyle none */
+}
+
+.left-menu ul li a {
+  text-decoration: none;
+  /* */
+}
+
+.right-menu ul {
+  display: flex;
+  gap: 10px;
+}
+
+.right-menu ul li {
+  list-style: none;
+  /* liststyle none */
+}
+
+.right-menu ul li a {
+  text-decoration: none;
+  /* */
+}
+
+.home-banner {
+  width: 100%;
+  height: 100vh;
+}
+
+.home-banner img {
+  width: 100%;
+  height: auto;
+}
+
+.text-banner {
+  width: 70%;
+  height: 200px;
+  position: absolute;
+  bottom: 100px;
+  left: 30px;
+  color: white !important;
+}
+
+.text {
+  color: white;
+  font-size: 50px;
+}
+
+.layout-trending {
+  width: 90%;
+  height: 100vh;
+  margin: 200px auto;
+}
+
+.container-card {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  gap: 15px;
+  margin-top: -15px;
+}
+
+.card {
+  width: 25%;
+  height: 400px;
+  margin-top: 50px;
+}
+
+.card img {
+  width: 100%;
+  height: 80%;
+}
+
+.card>p {
+  padding: 5px 0px;
+}
+
+.container-logo {
+  width: 100%;
+  height: 300px;
+  margin-top: -100px;
+  gap: 50px;
+  display: flex;
+  overflow-x: hidden;
+  display: flex;
+}
+
+
+.container-logo img {
+  animation: jalan 5s linear infinite;
+  width: 25%;
+  height: 200px;
+}
+
+@keyframes jalan {
+  0% {
+    transform: translateX(0%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+h5 {
+  text-align: center;
+  font-size: 20px;
+}
+
+.container-icon {
+  width: 100%;
+  height: 500px;
+  display: flex;
+}
+
+.card-icon {
+  width: 33.5%;
+  height: 400px;
+  padding: 100px 20px;
+  border: 1px solid rgb(181, 178, 178);
+}
+
+.card-icon img {
+  width: 20%;
+  height: 100px;
+}
+
+.card-icon h3 {
+  padding-top: 10px;
+}
+
+.card-icon p {
+  padding-top: 10px;
+}

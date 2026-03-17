@@ -1,0 +1,62 @@
+p {
+  text-indent: 50px;
+  /* text-decoration: line-through; */
+  text-transform: lowercase;
+  /* letter-spacing: 12px; */
+  word-spacing: 10px;
+
+
+}
+
+.text {
+  color: red;
+  font-size: 20px;
+}
+
+.text2 {
+  color: rgb(0, 255, 51);
+  font-size: 20px;
+}
+
+#text3 {
+  color: green;
+  font-size: 40px;
+}
+
+
+.judul {
+  text-align: center;
+  font-size: 100px;
+}
+
+.biru {
+  color: blue;
+}
+
+/* .gambar1 {
+  filter: blur(2px) grayscale(90%);
+  transition: 1s;
+}
+
+.gambar2 {
+  filter: blur(1px);
+} */
+
+.gambar1,
+.gambar2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  transition: 1s;
+  filter: grayscale(100%) blur(3px);
+
+}
+
+/* pseudo class : hover aktif ketika kursor di hover ke item tersebut */
+
+.gambar1:hover,
+.gambar2:hover {
+  filter: grayscale(0%) blur(0px);
+  cursor: pointer;
+  /* untuk buat curson jadi icon telunjuk */
+}
